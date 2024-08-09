@@ -1,0 +1,252 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #28a745;
+  color: #333;
+}
+
+.App {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-listing-page {
+  background-color: #28a745;
+  color: rgb(43, 38, 38);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-listing-page h1 {
+  margin-bottom: 5px;
+}
+
+.product-listing-page p {
+  font-size: 18px;
+}
+
+.product-listing-page .cart-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.product-listing-page .cart-icon span {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.landing-page {
+  text-align: center;
+  padding: 50px;
+  background-image: url('https://example.com/background.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.landing-page h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.landing-page p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.landing-page button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+}
+
+.landing-page button:hover {
+  background-color: #0056b3;
+}
+
+.product-listing-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: calc(33.333% - 0px); /* Adjust this based on your design */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card h2 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.product-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.product-card button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.shopping-cart-page {
+  padding: 20px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cart-item h2 {
+  font-size: 24px;
+}
+
+.cart-item p {
+  font-size: 16px;
+}
+
+.quantity-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkout-button {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
+
+.landing-page .text-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-size {
+  min-height: 150px !important;
+  max-height: 150px !important;
+}
